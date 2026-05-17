@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function HeroSection() {
   return (
-    <section className="bg-[#f8fafc] pt-36 pb-24">
+    <section className="bg-[#f8fafc] pt-28 pb-24">
       <div className="container-custom grid items-center gap-16 lg:grid-cols-2">
         {/* Left Content */}
         <div className="max-w-2xl">
@@ -35,7 +35,7 @@ export default function HeroSection() {
         <div className="relative">
           <div className="overflow-hidden rounded-[40px] shadow-2xl">
             <Image
-              src="/pool-hero.jpg"
+              src="/pool-hero.jpeg"
               alt="Luxury Swimming Pool"
               width={700}
               height={700}
