@@ -1,15 +1,34 @@
+import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
+
+import HeroSection from "../sections/HeroSection";
+import StatsSection from "../sections/StatsSection";
+import ServicesSection from "../sections/ServicesSection";
+import WhyChooseSection from "../sections/WhyChooseSection";
+import ProjectsSection from "../sections/ProjectsSection";
+import TestimonialsSection from "../sections/TestimonialsSection";
+import CTASection from "../sections/CTASection";
+
 export default function Home() {
-    return (
-      <main className="min-h-screen flex items-center justify-center">
-        <div className="text-center">
-          <h1 className="text-6xl font-bold">
-            Arya Group
-          </h1>
-  
-          <p className="mt-4 text-gray-400 text-lg">
-            Luxury Swimming Pool Design & Construction
-          </p>
-        </div>
-      </main>
-    );
-  }
+  return (
+    <main>
+      <Navbar />
+
+      <HeroSection />
+
+      <StatsSection />
+
+      <ServicesSection />
+
+      <WhyChooseSection />
+
+      <ProjectsSection />
+
+      <TestimonialsSection />
+
+      <CTASection />
+
+      <Footer />
+    </main>
+  );
+}
